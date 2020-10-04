@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header {
+  background-color: #082230;
+  display: flex;
+  height: 80px;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-around;
+  padding: 0;
+  align-items: center;
+}
+
+header nav ul li {
+  padding: 0 50px;
+}
+
+a.links {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 300;
+}
+
+a.links:hover {
+  color: black;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+#sec1 {
+  display: flex;
+  width: 100%;
+  height: 100ch;
+  justify-content: center;
+  align-items: center;
+}
+
+#sec2 {
+  background-color: #90ACBE;
+  display: flex;
+  height: 300px;
+}
+
+#image-container {
+  width: 500px;
+  padding: 20px 20px;
+}
+
+#profile-image {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+#bio-container {
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+}
+
+#bio {
+  font-size: 30px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#logo {
+  border-radius: 25%;
+  height: 150px;
+}
+
+a.links-media img {
+  width: 10%;
+  padding: 0 20px;
+}
+
+#logo-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#social-media {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#sec3 {
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 500px;
+}
+
+#sec3 h2 {
+  background-color: #082230;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  text-align: center;
+  color: #f0f0f0;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: sans-serif
+}
+
+#projects-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.projects {
+  background-color: #5D86A4;
+  width: 200px;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+
+#sec4 {
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+#sec4 a {
+  text-align: center;
+  padding: 0 5px;
+}
+
+#sec4 a img{
+  width: 25px;
+  background-color: #f0f0f0;
+}
+
+#rodape {
+  font-size 16px;
+  color: white;
+  background-color: #082230;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#rodape h6 {
+  margin-left: 10px;
+  text-align: center;
+}
