@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Breno Falcão</title>
+    <link rel="icon" href="./svg/icon.svg" />
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body> 
+  <body>
     <header id="cabecalho">
       <nav id="navi_bar">
         <ul>
@@ -21,20 +25,41 @@
 
     <section id="sec1">
       <div id="logo-container">
-        <img src="/imagens/logo-black.jpeg" alt="LOGO" id="logo">
+        <img src="/imagens/logo-black.jpeg" alt="LOGO" id="logo" />
         <div id="social-media">
-          <a class="links-media" href="https://www.linkedin.com/in/breno-falc%C3%A3o-757717112/" target="_blank" id="linked-in"><img src="/svg/linkedin-brands.svg" alt="Perfil LinkedIn"></a>
-          <a class="links-media" href="https://github.com/breenolf" target="_blank" id="github"><img src="/svg/github-brands.svg" alt="Perfil Git Hub"></a>
+          <a
+            class="links-media"
+            href="https://www.linkedin.com/in/breno-falc%C3%A3o-757717112/"
+            target="_blank"
+            id="linked-in"
+            ><img src="/svg/linkedin-brands.svg" alt="Perfil LinkedIn"
+          /></a>
+          <a
+            class="links-media"
+            href="https://github.com/breenolf"
+            target="_blank"
+            id="github"
+            ><img src="/svg/github-brands.svg" alt="Perfil Git Hub"
+          /></a>
         </div>
       </div>
     </section>
 
     <section id="sec2">
       <div id="image-container">
-        <img id="profile-image" src="/imagens/minha_foto.jpg" alt="Foto do Breno">
+        <img
+          id="profile-image"
+          src="/imagens/minha_foto.jpg"
+          alt="Foto do Breno"
+        />
       </div>
       <div id="bio-container">
-        <p id="bio">Brasileiro, nordestino e alagoano! Apaixonado por tecnologia e inovação. Desbravando o mundo da programação e desenvolvimento desde 2018. Simpatizante da música e do mundo dos games! Atualmente estudante de Desenvolvimento de Software na Trybe!🚀️.</p>
+        <p id="bio">
+          Brasileiro, nordestino e alagoano! Apaixonado por tecnologia e
+          inovação. Desbravando o mundo da programação e Desenvolvimento Web desde
+          2018. Simpatizante da música e do mundo dos games! Atualmente
+          estudante de Desenvolvimento de Software na Trybe!🚀️.
+        </p>
       </div>
     </section>
 
@@ -48,8 +73,15 @@
     </section>
 
     <section id="sec4">
-      <a class="envelope-open-text" href="mailto: falcaobreno@gmail.com"><img src="/svg/envelope-open-text-solid.svg" alt=""></a>
-      <a class="wpp-open-text" target="_blank" href="https://api.whatsapp.com/send?phone=5582987046056&text=Ol%C3%A1!%20Visitei%20seu%20Portf%C3%B3lio%20e%20gostaria%20de%20manter%20contato%20para%20conhecer%20um%20pouco%20sobre%20as%20suas%20habilidades%20como%20Desenvolver!"><img src="/svg/whatsapp-brands.svg" alt=""></a>
+      <a class="envelope-open-text" href="mailto: falcaobreno@gmail.com"
+        ><img src="/svg/envelope-open-text-solid.svg" alt=""
+      /></a>
+      <a
+        class="wpp-open-text"
+        target="_blank"
+        href="https://api.whatsapp.com/send?phone=5582987046056&text=Ol%C3%A1!%20Visitei%20seu%20Portf%C3%B3lio%20e%20gostaria%20de%20manter%20contato%20para%20conhecer%20um%20pouco%20sobre%20as%20suas%20habilidades%20como%20Desenvolver!"
+        ><img src="/svg/whatsapp-brands.svg" alt=""
+      /></a>
     </section>
 
     <footer id="rodape">
@@ -57,19 +89,19 @@
     </footer>
 
     <script>
-      document.getElementById('home').addEventListener('click', () => {
+      document.getElementById("home").addEventListener("click", () => {
         window.scrollTo(0, 0);
-      })
-      document.getElementById('iam').addEventListener('click', () => {
+      });
+      document.getElementById("iam").addEventListener("click", () => {
         window.scrollTo(0, 500);
-      })
-      document.getElementById('portfolio').addEventListener('click', () => {
+      });
+      document.getElementById("portfolio").addEventListener("click", () => {
         window.scrollTo(0, 800);
-      })
-      document.getElementById('contact').addEventListener('click', () => {
+      });
+      document.getElementById("contact").addEventListener("click", () => {
         let screenHeight = screen.availHeight;
         window.scrollTo(0, screenHeight);
-      })
+      });
     </script>
   </body>
 </html>

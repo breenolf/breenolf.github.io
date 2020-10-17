@@ -34,11 +34,12 @@ header nav ul li {
   padding: 0 50px;
 }
 
-a.links {
+.links {
   color: white;
   text-decoration: none;
   padding: 10px;
   font-weight: 300;
+  cursor: pointer;
 }
 
 a.links:hover {
